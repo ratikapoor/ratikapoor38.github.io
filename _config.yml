@@ -29,7 +29,7 @@ plugins:
   - jekyll-github-metadata
 
 titles_from_headings:
-  enabled:     False
+  enabled:     True
   strip_title: False
   collections: True
 
