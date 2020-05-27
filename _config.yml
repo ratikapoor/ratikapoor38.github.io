@@ -10,13 +10,15 @@
 # description: Training human brains to understand machine learning ❤
 # github_username: ratikapoor
 name: HumanLearning-ML!
-title: null
+title: nill
 # Email and twitter are optional:
 email: rati.kapoor27@gmail.com
 twitter_username:
 
 # Set this to true to get LaTeX math equation support
 use_math: True
+header_pages:
+  - about.md
 
 titles_from_headings:
   enabled:     true
