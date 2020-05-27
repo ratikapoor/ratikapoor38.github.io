@@ -29,8 +29,8 @@ plugins:
   - jekyll-github-metadata
 
 titles_from_headings:
-  enabled:     True
-  strip_title: False
+  enabled:     False
+  strip_title: True
   collections: True
 
 highlighter: rouge
