@@ -1,94 +1,43 @@
-Skip to content
-Search or jump to…
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ratikapoor 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+title: HumanLearning-ML!
+# description: Training human brains to understand machine learning ❤
+# github_username: ratikapoor
 
+# Email and twitter are optional:
+email: rati.kapoor27@gmail.com
+twitter_username:
 
-AB2212
-/
-ab2212.github.io
-forked from iamtrask/iamtrask.github.io
-0
-059
- Code
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
-ab2212.github.io/_config.yml
-@AB2212 AB2212 Update _config.yml
-0e2d399 on Apr 24
-@AB2212@iamtrask@mrdrozdov@herrjemand
-51 lines (42 sloc)  917 Bytes
-  
-# Site settings
-title: HumanLearning-ML
-subtitle: Machine Learning Blog
-# email: abhijeetbiswas2212.ab@gmail.com
-description: "A blog where we dig deep into the Math and Code behind Machine learning Algorithms"
-baseurl: ""
-# url: "https://ab2212.github.io"
-# twitter_username: AbhiB2212
-# github_username:  AB2212
+# Set this to true to get LaTeX math equation support
+use_math: True
 
-use_math: true
+# Add your Google Analytics ID here if you have one and want to use it
+google_analytics:
+
+# Everything below here can be ignored, unless you want to change the theme entirely
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-octicons
+  - jekyll-github-metadata
 
 titles_from_headings:
   enabled:     true
   strip_title: true
   collections: true
 
-# Build settings
 highlighter: rouge
 markdown: kramdown
-
-gems:
-    - jekyll-seo-tag
-    - jekyll-sitemap
-    - jekyll-feed
-
 kramdown:
   math_engine: katex
   input: GFM
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["node_modules"]
-
-theme: jekyll-theme-clean-blog
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-github-metadata
-  
-analytics :
-  provider : google
-  google:
-    tracking_id : 'UA-164494745-1'
-  getclicky :
-    site_id
-    
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
