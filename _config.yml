@@ -17,31 +17,26 @@ twitter_username:
 # Set this to true to get LaTeX math equation support
 use_math: True
 
-# Add your Google Analytics ID here if you have one and want to use it
-google_analytics:
-
-# Everything below here can be ignored, unless you want to change the theme entirely
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-github-metadata
-
 titles_from_headings:
   enabled:     true
   strip_title: true
   collections: true
 
+# Build settings
 highlighter: rouge
 markdown: kramdown
+
+gems:
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-feed
+
 kramdown:
   math_engine: katex
   input: GFM
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
-  
 permalink: pretty
 paginate: 5
 exclude: ["node_modules"]
