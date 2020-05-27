@@ -60,3 +60,8 @@
 
 .codecell table { width: auto; }
 
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
